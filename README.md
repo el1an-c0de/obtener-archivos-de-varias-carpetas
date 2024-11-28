@@ -1,38 +1,49 @@
 # Mover Archivos
 
-Este script en Python permite mover todos los archivos desde una carpeta de origen y sus subcarpetas a una carpeta de destino. Si la carpeta de destino no existe, el script la creará automáticamente. Además, maneja posibles conflictos de nombres de archivos en la carpeta de destino.
+Esta aplicación permite mover archivos desde una carpeta de origen a una carpeta de destino, con la opción de mantener la estructura de carpetas. La interfaz gráfica facilita la selección de carpetas y muestra los logs de la operación en tiempo real.
 
-## Funcionalidades
+## Características
 
-- **Mover Archivos**: Mueve todos los archivos desde la carpeta de origen y sus subcarpetas a la carpeta de destino.
-- **Crear Carpeta de Destino**: Si la carpeta de destino no existe, la crea automáticamente.
-- **Manejo de Conflictos de Nombres**: Si un archivo con el mismo nombre ya existe en la carpeta de destino, el script renombra el archivo para evitar sobrescribirlo.
+- Selección de carpetas de origen y destino.
+- Opción para mover archivos manteniendo la estructura de carpetas.
+- Interfaz gráfica intuitiva.
+- Visualización de logs en tiempo real.
+- Pestaña de detalles con información sobre la aplicación.
 
 ## Requisitos
 
 - Python 3.x
-- Módulos estándar de Python: `os`, `shutil`
+- Bibliotecas de Python: `tkinter`, `os`, `shutil`
 
-## Uso
+## Instalación
 
-1. Descargar el archivo: `app.py`.
-2. Ejecuta el script desde la línea de comandos:
+1. Clona el repositorio:
 
+```sh
+git clone https://github.com/tu-usuario/mover-archivos.git
+cd mover-archivos
+```
+2. Ejecuta el script de Python:
 ```sh
 python app.py
 ```
-3. Introduce las rutas de la carpeta de origen y la carpeta de destino cuando se te solicite.
+3. Sigue las instrucciones en la interfaz gráfica para seleccionar las carpetas de origen y destino, y mover los archivos.
 
-## Ejemplo CMD
-```sh
-Introduce la ruta de la carpeta de origen: C:/Users/user/Downloads
-Introduce la ruta de la carpeta de destino: C:/Users/user/Downloads/Carpeta-archivos
-Movido: C:/Users/user/Downloads/test.jpg --> C:/Users/user/Downloads/Carpeta-archivos/test.jpg
-```
+## Contribución
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-## Notas
-- Asegúrate de tener permisos de lectura y escritura en las carpetas de origen y destino.
-- El script maneja conflictos de nombres de archivos añadiendo un sufijo numérico al nombre del archivo.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu nueva característica ```(git checkout -b feature/nueva-caracteristica)```.
+3. Realiza tus cambios y haz commit ```(git commit -am 'Añadir nueva característica')```.
+4. Haz push a la rama ```(git push origin feature/nueva-caracteristica)```.
+5. Crea un Pull Request.
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## Contacto
+- Desarrollador: Elian Ramírez
+- GitHub: @el1an-c0de
+- Correo Electrónico: elianRAMIER2017@hotmail.com
+
+¡Gracias por utilizar Organizador de Archivos! Si tienes alguna pregunta, sugerencia o encuentras algún error, no dudes en contactarme.
