@@ -9,6 +9,9 @@ Esta aplicación permite mover archivos desde una carpeta de origen a una carpet
 - Interfaz gráfica intuitiva.
 - Visualización de logs en tiempo real.
 - Pestaña de detalles con información sobre la aplicación.
+## Uso
+1. Descargar el archivo ejecutable en el siguiente enlace [Releases](https://github.com/el1an-c0de/obtener-archivos-de-varias-carpetas/releases/tag/python)
+2. Sigue las instrucciones en la interfaz gráfica para seleccionar las carpetas de origen y destino, y mover los archivos.
 
 ## Requisitos
 
