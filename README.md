@@ -32,6 +32,19 @@ python app.py
 ```
 3. Sigue las instrucciones en la interfaz gráfica para seleccionar las carpetas de origen y destino, y mover los archivos.
 
+## Crear un Archivo Ejecutable
+Para crear un archivo ejecutable (.exe) que permita a los usuarios ejecutar la aplicación sin necesidad de tener Python instalado, sigue estos pasos:
+1. Instala ```PyInstaller```:
+```
+pip install pyinstaller
+```
+2. Crea el archivo ejecutable:
+```
+pyinstaller --onefile --windowed --icon=src/images/icon.ico app.py
+```
+3. Verificar el archivo ejecutable:
+Navega hasta el directorio ```dist``` y ejecuta ```app.exe```.
+
 ## Contribución
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
